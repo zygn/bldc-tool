@@ -9,7 +9,7 @@ echo "[3/4] Compiling BLDC-Tools..."
 qmake -qt=qt5
 make clean && make
 echo "[4/4] System Setup..."
-sudo adduser $USER dialout
+adduser $USER dialout
 
 echo ""
 echo "Install Complete!!!"
